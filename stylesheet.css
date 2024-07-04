@@ -82,3 +82,14 @@ h2 {
 .social-links a:hover {
     color: #4b0082;
 }
+
+.center-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.center-list ul {
+    list-style-type: none;
+    padding: 0;
+}
