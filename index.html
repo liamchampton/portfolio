@@ -116,7 +116,7 @@
 
     <section id="videos" class="content-section">
         <h2 class="section-title">Recent Video Content</h2>
-        <div class="card-grid">
+        <div class="card-grid" id="videos-grid">
             <article class="card">
                 <div class="card-content">
                     <i class="fab fa-youtube card-icon"></i>
@@ -172,7 +172,17 @@
                     </a>
                 </div>
             </article>
-            <article class="card cta-card">
+            <article class="card">
+                <div class="card-content">
+                    <i class="fab fa-youtube card-icon"></i>
+                    <h3 class="card-title">MCP Apps Support in VS Code</h3>
+                    <p class="card-description">Checkout how you can get a GUI returned output on your MCP responses in your agent.</p>
+                    <a href="https://youtube.com/shorts/ElbfEUBA8Pw?si=UTLuovNTAfOGtUo5" class="card-link" target="_blank">
+                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="card cta-card hidden-card">
                 <div class="card-content">
                     <i class="fab fa-youtube cta-icon"></i>
                     <h3 class="card-title">More Videos</h3>
@@ -183,6 +193,10 @@
                 </div>
             </article>
         </div>
+        <button class="expand-btn" id="videos-expand-btn" onclick="toggleVideos()">
+            <span>Show More</span>
+            <i class="fas fa-chevron-down"></i>
+        </button>
         <a href="#conferences" class="scroll-indicator" aria-label="Scroll to conferences">
             <i class="fas fa-chevron-down"></i>
         </a>
@@ -414,6 +428,16 @@
         function toggleTalks() {
             const grid = document.getElementById('talks-grid');
             const btn = document.getElementById('talks-expand-btn');
+            const isExpanded = grid.classList.toggle('expanded');
+            
+            btn.querySelector('span').textContent = isExpanded ? 'Show Less' : 'Show More';
+            btn.querySelector('i').classList.toggle('fa-chevron-down', !isExpanded);
+            btn.querySelector('i').classList.toggle('fa-chevron-up', isExpanded);
+        }
+
+        function toggleVideos() {
+            const grid = document.getElementById('videos-grid');
+            const btn = document.getElementById('videos-expand-btn');
             const isExpanded = grid.classList.toggle('expanded');
             
             btn.querySelector('span').textContent = isExpanded ? 'Show Less' : 'Show More';
