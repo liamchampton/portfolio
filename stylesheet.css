@@ -611,7 +611,7 @@ img {
     transition: transform var(--transition-fast);
 }
 
-.card-link:hover i {
+.card-link:hover i:last-child {
     transform: translateX(4px);
 }
 
@@ -730,6 +730,18 @@ footer {
 
 .card-grid.expanded .hidden-card {
     display: block;
+    animation: fadeInUp 0.3s ease both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .expand-btn {
@@ -761,8 +773,35 @@ footer {
 }
 
 /* ========================================
+   Skip Navigation
+======================================== */
+.skip-nav {
+    position: absolute;
+    top: -100%;
+    left: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-accent-primary);
+    color: var(--color-text-primary);
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    z-index: 9999;
+    transition: top var(--transition-fast);
+}
+
+.skip-nav:focus {
+    top: var(--space-md);
+}
+
+/* ========================================
    Responsive Design
 ======================================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #videos .card-grid,
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     :root {
         --font-size-4xl: 2rem;
