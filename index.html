@@ -1,511 +1,646 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Liam Hampton | Senior Cloud Advocate & Software Engineer</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liam Hampton — Senior Cloud Advocate &amp; Software Engineer</title>
     <meta name="description" content="Liam Hampton is a Senior Cloud Advocate at Microsoft, software engineer, and entrepreneur. Speaker at Microsoft Ignite, Build, GopherCon, and more.">
+
+    <meta name="theme-color" content="#faf8f3">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://liamchampton.github.io/portfolio/">
-    <meta property="og:title" content="Liam Hampton | Senior Cloud Advocate & Software Engineer">
+    <meta property="og:title" content="Liam Hampton — Senior Cloud Advocate & Software Engineer">
     <meta property="og:description" content="Senior Cloud Advocate at Microsoft. Speaker, open source builder, and world traveller. Check out my projects, talks, and videos.">
     <meta property="og:image" content="https://liamchampton.github.io/portfolio/assets/profile-picture.jpeg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@liamchampton">
-    <meta name="twitter:title" content="Liam Hampton | Senior Cloud Advocate & Software Engineer">
+    <meta name="twitter:title" content="Liam Hampton — Senior Cloud Advocate & Software Engineer">
     <meta name="twitter:description" content="Senior Cloud Advocate at Microsoft. Speaker, open source builder, and world traveller.">
     <meta name="twitter:image" content="https://liamchampton.github.io/portfolio/assets/profile-picture.jpeg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-
 <body>
-    <a href="#projects" class="skip-nav">Skip to main content</a>
-    <main>
-    <section class="hero">
-        <div class="hero-content">
-            <img src="./assets/profile-picture.jpeg" alt="Liam Hampton" class="hero-image">
-            <h1>Hey there, I'm Liam <span class="wave">👋</span></h1>
-            <p class="tagline">Senior Cloud Advocate / Software Engineer / Entrepreneur</p>
-            <div class="hero-highlights">
-                <span class="highlight"><i class="fas fa-building"></i> Microsoft</span>
-                <span class="highlight"><i class="fas fa-rocket"></i> Ex-Meetup Organiser (20k+ members)</span>
-                <span class="highlight"><i class="fas fa-globe"></i> World Traveller (30+ countries)</span>
-            </div>
-            <div class="hero-community">
-                <span class="community-label">Previous Community Roles</span>
-                <div class="community-links">
-                    <a href="https://www.meetup.com/microsoft-reactor-london/" target="_blank" rel="noopener noreferrer" class="community-link">
-                        <i class="fas fa-users"></i>
-                        <span>London Reactor Meetup Organiser</span>
-                    </a>
-                    <a href="https://www.youtube.com/live/VHPov6o04eA?si=9c7MiLxIaUeWnz_F" target="_blank" rel="noopener noreferrer" class="community-link">
-                        <i class="fab fa-youtube"></i>
-                        <span>Azure Developer CLI Community Call Co-Host</span>
-                    </a>
-                </div>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn github" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn twitter" aria-label="X/Twitter"><i class="fab fa-x-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/liam-conroy-hampton/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <a href="#projects" class="scroll-indicator" aria-label="Scroll down">
-            <i class="fas fa-chevron-down"></i>
-        </a>
-    </section>
+    <a href="#projects" class="skip-nav">Skip to content</a>
 
-    <section id="projects" class="content-section">
-        <h2 class="section-title">Recent Projects</h2>
-        <div class="card-grid">
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">macOS</span>
-                        <span class="tag">Go</span>
-                        <span class="tag">Copilot CLI</span>
-                    </div>
-                    <h3 class="card-title">Copilot CLI Session Monitor</h3>
-                    <p class="card-description">A lightweight macOS menu bar app that shows your active GitHub Copilot CLI sessions at a glance. Click any session to jump straight to its terminal tab.</p>
-                    <a href="https://github.com/liamchampton/copilot-cli-session-monitor" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View Repository <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">Go</span>
-                        <span class="tag">Copilot SDK</span>
-                        <span class="tag">CLI</span>
-                    </div>
-                    <h3 class="card-title">Interview Doctor</h3>
-                    <p class="card-description">An AI-powered CLI tool that generates tailored interview questions based on your CV/job title/seniority level/job description URL.</p>
-                    <a href="https://github.com/liamchampton/interview-doctor" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View Repository <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">MCP</span>
-                        <span class="tag">GitHub Copilot</span>
-                    </div>
-                    <h3 class="card-title">MCP Apps Project Collection</h3>
-                    <p class="card-description">A collection of MCP (Model Context Protocol) applications and examples for extending AI capabilities.</p>
-                    <a href="https://github.com/liamchampton/mcp-apps" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View Repository <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">Swift</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">iOS</span>
-                        <span class="tag">Copilot SDK</span>
-                    </div>
-                    <h3 class="card-title">iOS Scratch Map with Copilot SDK</h3>
-                    <p class="card-description">An iOS scratch map application built with Swift, integrating the Copilot SDK for enhanced AI-powered features and interactions.</p>
-                    <span class="no-recording"><em>Public repository coming soon...</em></span>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">GitHub Copilot</span>
-                        <span class="tag">AI Tour 2026</span>
-                    </div>
-                    <h3 class="card-title">GitHub Copilot as an AI Agent in the Developer Workflow</h3>
-                    <p class="card-description">Microsoft AI Tour 2026 breakout session resources demonstrating how to use GitHub Copilot effectivley.</p>
-                    <a href="https://github.com/microsoft/aitour26-BRK442-github-copilot-as-an-ai-agent-in-the-developer-workflow" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View Repository <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <div class="card-tags">
-                        <span class="tag">Go</span>
-                        <span class="tag">Azure AI Foundry</span>
-                        <span class="tag">Bicep IaC</span>
-                    </div>
-                    <h3 class="card-title">DeepSeek-R1 x Go AZD Template</h3>
-                    <p class="card-description">An AI Chat application ready-made template using DeepSeek-R1 model deployed in Azure Foundry.</p>
-                    <a href="https://github.com/Azure-Samples/deepseek-go" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> View Repository <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-        </div>
-        <div class="tech-logos">
-            <i class="fab fa-swift" title="Swift"></i>
-            <i class="fab fa-python" title="Python"></i>
-            <i class="fab fa-golang" title="Go"></i>
-            <img src="./assets/copilot-logo.svg" alt="GitHub Copilot" title="GitHub Copilot" class="copilot-logo">
-        </div>
-        <a href="#videos" class="scroll-indicator" aria-label="Scroll to videos">
-            <i class="fas fa-chevron-down"></i>
-        </a>
-    </section>
+    <!-- Ambient pastel blobs -->
+    <div class="ambient" aria-hidden="true">
+        <div class="blob b1" data-speed="0.08"></div>
+        <div class="blob b2" data-speed="-0.05"></div>
+        <div class="blob b3" data-speed="0.04"></div>
+        <div class="blob b4" data-speed="-0.06"></div>
+        <div class="blob b5" data-speed="0.05"></div>
+    </div>
 
-    <section id="videos" class="content-section">
-        <h2 class="section-title">Recent Video Content</h2>
-        <div class="card-grid" id="videos-grid">
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">Hosted Agents League - Creative Apps (GitHub Copilot)</h3>
-                    <p class="card-description">Live stream battle showcasing creative app building with GitHub Copilot agents.</p>
-                    <a href="https://www.youtube.com/live/33rGM-cpUAI?si=DFn24S6oyntEAz97" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">Working with MCP servers in GitHub Copilot Agent mode</h3>
-                    <p class="card-description">Using the GitHub MCP server combined with the Perplexity MCP server within VS Code.</p>
-                    <span class="video-views"><i class="fas fa-eye"></i> 60k+ views</span>
-                    <a href="https://youtu.be/ZlrQJQV14xQ" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">Using the GitHub Copilot SDK with Python</h3>
-                    <p class="card-description">Connect your apps to the underlying GitHub Copilot Engine using the SDKs. In this video Liam connects his project iOS app to GitHub Copilot using a Python script.</p>
-                    <span class="video-views"><i class="fas fa-eye"></i> 9.5k+ views</span>
-                    <a href="https://youtu.be/G6Ywhqv_7WQ" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">GitHub MCP Registry integrated in VS Code Insiders</h3>
-                    <p class="card-description">Unlock the GitHub MCP Registry to get started with the Playwright MCP server to write and run automated tests.</p>
-                    <span class="video-views"><i class="fas fa-eye"></i> 21k+ views</span>
-                    <a href="https://youtu.be/STigfiK_n1Q" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">Using Agent Sessions in VS Code</h3>
-                    <p class="card-description">Using Agent Sessions in VS Code is a powerful way to boost your productivity when developing, allowing you to use both local and remote AI Agents.</p>
-                    <span class="video-views"><i class="fas fa-eye"></i> 10k+ views</span>
-                    <a href="https://youtu.be/ZfmcABG7Mps" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">The new MCP registry experience in VS Code!</h3>
-                    <p class="card-description">Checkout how to get hands on with the new GitHub MCP server registry experience directly in VS Code!</p>
-                    <span class="video-views"><i class="fas fa-eye"></i> 16k+ views</span>
-                    <a href="https://youtu.be/K4Vz-Wih-40" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <i class="fab fa-youtube card-icon"></i>
-                    <h3 class="card-title">MCP Apps Support in VS Code</h3>
-                    <p class="card-description">Checkout how you can get a GUI returned output on your MCP responses in your agent.</p>
-                    <a href="https://youtube.com/shorts/ElbfEUBA8Pw?si=UTLuovNTAfOGtUo5" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card cta-card hidden-card">
-                <div class="card-content">
-                    <i class="fab fa-youtube cta-icon"></i>
-                    <h3 class="card-title">More Videos</h3>
-                    <p class="card-description">Check out more of my content on the VS Code YouTube channel.</p>
-                    <a href="https://www.youtube.com/@code/search?query=liam" class="card-link" target="_blank" rel="noopener noreferrer">
-                        View Channel <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-        </div>
-        <button class="expand-btn" id="videos-expand-btn" onclick="toggleVideos()">
-            <span>Show More</span>
-            <i class="fas fa-chevron-down"></i>
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Nav -->
+    <header class="nav" id="nav">
+        <a href="#top" class="nav-brand"><span class="dot"></span> Liam Hampton</a>
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+            <a href="#projects">Projects</a>
+            <a href="#videos">Videos</a>
+            <a href="#talks">Talks</a>
+            <a href="#writing">Writing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <i class="fas fa-bars"></i>
         </button>
-        <a href="#conferences" class="scroll-indicator" aria-label="Scroll to conferences">
-            <i class="fas fa-chevron-down"></i>
-        </a>
-    </section>
+    </header>
 
-    <section id="conferences" class="content-section">
-        <h2 class="section-title">Conference & Meetup Talks</h2>
-        <div class="card-grid" id="talks-grid">
-            <article class="card featured">
-                <div class="card-content">
-                    <span class="card-date">November 2025</span>
-                    <h3 class="card-title">Microsoft Ignite 2025</h3>
-                    <h4 class="card-subtitle">Breakout Session</h4>
-                    <p class="card-description">Delivered a breakout session on GitHub Copilot at Microsoft's flagship technical conference.</p>
-                    <a href="https://www.youtube.com/watch?v=3K9kKLMU9rs" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <span class="card-date">November 2025</span>
-                    <h3 class="card-title">Microsoft AI Tour 2025 Frankfurt</h3>
-                    <h4 class="card-subtitle">Workshop</h4>
-                    <p class="card-description">Led a hands-on GitHub Copilot workshop at Microsoft AI Tour in Frankfurt, Germany.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-             <article class="card">
-                <div class="card-content">
-                    <span class="card-date">October 2025</span>
-                    <h3 class="card-title">Microsoft AI Tour 2025 Toronto</h3>
-                    <h4 class="card-subtitle">Breakout Sessions x2</h4>
-                    <p class="card-description">Delivered two breakout sessions at Microsoft AI Tour in Toronto. One on GitHub Copilot and one on Securing AI workflows.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <span class="card-date">September 2025</span>
-                    <h3 class="card-title">Microsoft AI Tour 2025 Chicago</h3>
-                    <h4 class="card-subtitle">Breakout Session</h4>
-                    <p class="card-description">Delivered a breakout session on GitHub Copilot at Microsoft AI Tour in Chicago.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-            <article class="card featured">
-                <div class="card-content">
-                    <span class="card-date">June 2025</span>
-                    <h3 class="card-title">DevTalks Romania 2025</h3>
-                    <h4 class="card-subtitle">Keynote</h4>
-                    <p class="card-description">Delivered a keynote presentation on The Azure Developer CLI and GitHub Copilot at DevTalks Romania.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-            <article class="card featured">
-                <div class="card-content">
-                    <span class="card-date">May 2025</span>
-                    <h3 class="card-title">Microsoft Build 2025 Seattle</h3>
-                    <h4 class="card-subtitle">Lab Workshop</h4>
-                    <p class="card-description">Led a hands-on lab workshop at Microsoft's premier developer conference, Microsoft Build, in Seattle.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-            <!-- Hidden cards -->
-            <article class="card featured hidden-card">
-                <div class="card-content">
-                    <span class="card-date">March 2025</span>
-                    <h3 class="card-title">CloudConf Turin 2025</h3>
-                    <h4 class="card-subtitle">Keynote</h4>
-                    <p class="card-description">Delivered a keynote presentation on the Azure Developer CLI at CloudConf in Turin, Italy.</p>
-                    <span class="no-recording"><i class="fas fa-times-circle"></i> <em>No recording available</em></span>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">September 2024</span>
-                    <h3 class="card-title">MSFT Reactor Stream</h3>
-                    <h4 class="card-subtitle">Scaling and Maintaining AI Apps on Azure</h4>
-                    <p class="card-description">Explained AI fundamentals and LLM interaction with a demo of the Azure Developer CLI for building, deploying, and maintaining production AI applications.</p>
-                    <a href="https://youtu.be/PLs9SKi7E1Y?si=MIc0SsZg92w-U9-Z" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">August 2024</span>
-                    <h3 class="card-title">GopherCon UK '24</h3>
-                    <h4 class="card-subtitle">Improving your code craft with Generative AI</h4>
-                    <p class="card-description">Session on prompt engineering, GenAI in SDLC, and live demo with GitHub Copilot and Azure OpenAI function calling.</p>
-                    <a href="https://youtu.be/mls9mQFgB7A?si=HjCzCXbrf7rRSbaS" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">September 2023</span>
-                    <h3 class="card-title">code.talks Germany</h3>
-                    <h4 class="card-subtitle">Code to Cloud with the Azure Developer CLI</h4>
-                    <p class="card-description">Conference talk at one of Germany's biggest conferences, focused on the Azure Developer CLI for deploying end-to-end applications.</p>
-                    <a href="https://youtu.be/bTKrMpM01bo?si=KbE2f__hfBaZ5LcW" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card featured hidden-card">
-                <div class="card-content">
-                    <span class="card-date">August 2023</span>
-                    <h3 class="card-title">GopherCon UK '23 Opening Keynote</h3>
-                    <h4 class="card-subtitle">Memory management in Go: The good, the bad and the ugly</h4>
-                    <p class="card-description">Delivered the opening conference Keynote to an audience of ~600 people.</p>
-                    <a href="https://youtu.be/SKenR18NM04?si=dKwBI-3EXg83fyVr" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">June 2023</span>
-                    <h3 class="card-title">London DevOps Meetup</h3>
-                    <h4 class="card-subtitle">The Serverless Revolution (updated)</h4>
-                    <p class="card-description">Meetup talk at Amazon London HQ with Serverless Revolution presentation and Azure Developer CLI demo.</p>
-                    <a href="https://youtu.be/ed1CbYktbjY" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">December 2022</span>
-                    <h3 class="card-title">DevOpsDays Tel-Aviv</h3>
-                    <h4 class="card-subtitle">The Serverless Revolution</h4>
-                    <p class="card-description">Main stage presentation on how developers are decoupling infrastructure and its effect on the DevOps lifecycle.</p>
-                    <a href="https://youtu.be/DJDoaULwT5c" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card hidden-card">
-                <div class="card-content">
-                    <span class="card-date">December 2021</span>
-                    <h3 class="card-title">GopherCon US</h3>
-                    <h4 class="card-subtitle">Go to the Edge</h4>
-                    <p class="card-description">Lightning talk on TinyGo and how "the networking language of the future" is being used on IoT and embedded devices.</p>
-                    <a href="https://youtu.be/bt5wIp7qAt4" class="card-link" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-youtube"></i> Watch Now <i class="fas fa-play"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card cta-card hidden-card">
-                <div class="card-content">
-                    <i class="fab fa-youtube cta-icon"></i>
-                    <h3 class="card-title">More Videos</h3>
-                    <p class="card-description">Check out more of my content on the Microsoft Reactor YouTube channel.</p>
-                    <a href="https://www.youtube.com/@MicrosoftReactor/search?query=Liam" class="card-link" target="_blank" rel="noopener noreferrer">
-                        View Channel <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-        </div>
-        <button class="expand-btn" id="talks-expand-btn" onclick="toggleTalks()">
-            <span>Show More</span>
-            <i class="fas fa-chevron-down"></i>
-        </button>
-        <a href="#blogs" class="scroll-indicator" aria-label="Scroll to blogs">
-            <i class="fas fa-chevron-down"></i>
-        </a>
-    </section>
+    <main id="top">
+        <!-- ============================== HERO ============================== -->
+        <section class="hero">
+            <div class="wrap">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="eyebrow hero-eyebrow reveal">Senior Cloud Advocate & Software Engineer · Microsoft</div>
+                        <h1 class="reveal" data-delay="1">
+                            Hey, I'm <span class="accent">Liam</span> <span class="wave">👋</span>
+                        </h1>
+                        <p class="hero-tagline reveal" data-delay="2">
+                            Senior Cloud Advocate and Software Engineer at Microsoft on the <strong>VS Code Developer Tools Advocacy</strong> team. Member of the <strong>AAIF Outreach Committee</strong> (Agentic AI Foundation, Linux Foundation). I love sharing knowledge and creating simple, concise content for others to learn from.
+                        </p>
 
-    <section id="blogs" class="content-section">
-        <h2 class="section-title">Blogs</h2>
-        <div class="card-grid">
-            <article class="card">
-                <div class="card-content">
-                    <i class="fas fa-terminal card-icon"></i>
-                    <h3 class="card-title">Step-by-Step: How to setup and use Azure CLI Interactive mode</h3>
-                    <a href="https://dev.to/liamchampton/step-by-step-how-to-setup-and-use-azure-cli-interactive-mode-292e" class="card-link" target="_blank" rel="noopener noreferrer">
-                        Read Article <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fas fa-code-compare card-icon"></i>
-                    <h3 class="card-title">The difference between the Azure CLI and Azure Developer CLI?</h3>
-                    <a href="https://dev.to/liamchampton/what-is-the-difference-between-the-azure-command-line-interface-and-azure-developer-command-line-interface-5cl3" class="card-link" target="_blank" rel="noopener noreferrer">
-                        Read Article <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card-content">
-                    <i class="fab fa-github card-icon"></i>
-                    <h3 class="card-title">How to build, test and deploy your application using Azure and GitHub</h3>
-                    <a href="https://devblogs.microsoft.com/devops/how-to-build-test-and-deploy-your-application-using-azure-and-github/" class="card-link" target="_blank" rel="noopener noreferrer">
-                        Read Article <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-            <article class="card cta-card">
-                <div class="card-content">
-                    <i class="fab fa-dev cta-icon"></i>
-                    <h3 class="card-title">More Articles</h3>
-                    <p class="card-description">Visit my Dev.to blog for more technical articles and tutorials.</p>
-                    <a href="https://dev.to/liamchampton" class="card-link" target="_blank" rel="noopener noreferrer">
-                        View Blog <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </article>
-        </div>
-    </section>
+                        <div class="chips reveal" data-delay="3">
+                            <span class="chip"><i class="fas fa-building"></i> Microsoft</span>
+                            <span class="chip"><i class="fas fa-robot"></i> AAIF Outreach Committee</span>
+                            <span class="chip"><i class="fas fa-rocket"></i> Ex-Meetup Organiser · 20k+ members</span>
+                            <span class="chip"><i class="fas fa-globe"></i> 30+ countries</span>
+                        </div>
 
+                        <div class="hero-actions reveal" data-delay="4">
+                            <a href="#projects" class="btn btn-primary">See my work <i class="fas fa-arrow-right"></i></a>
+                            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+                        </div>
+
+                        <div class="hero-meta reveal" data-delay="4">
+                            <span class="meta-label">Previous community roles</span>
+                            <div class="community-row">
+                                <a href="https://www.meetup.com/microsoft-reactor-london/" target="_blank" rel="noopener noreferrer" class="community-link">
+                                    <i class="fas fa-users"></i> London Reactor Meetup Organiser
+                                </a>
+                                <a href="https://www.youtube.com/live/VHPov6o04eA?si=9c7MiLxIaUeWnz_F" target="_blank" rel="noopener noreferrer" class="community-link">
+                                    <i class="fab fa-youtube"></i> Azure Developer CLI Community Call Co-Host
+                                </a>
+                            </div>
+                            <div class="socials">
+                                <a href="https://github.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/liam-conroy-hampton/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-portrait reveal" data-delay="2">
+                        <img src="./assets/profile-picture.jpeg" alt="Portrait of Liam Hampton">
+                        <div class="portrait-badge">
+                            <span class="pulse"></span>
+                            <span>Available for speaking &amp; collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== PROJECTS ============================== -->
+        <section id="projects" class="section">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <span class="eyebrow">Selected work</span>
+                    <h2 class="section-title">Recent <em>projects</em>.</h2>
+                    <p class="section-lede">A mix of open-source tooling, AI experiments, and conference content I've shipped recently.</p>
+                </header>
+
+                <div class="grid">
+                    <article class="card reveal">
+                        <div class="card-tags">
+                            <span class="tag">macOS</span><span class="tag">Go</span><span class="tag">Copilot CLI</span>
+                        </div>
+                        <h3 class="card-title">Copilot CLI Session Monitor</h3>
+                        <p class="card-desc">A lightweight macOS menu bar app that shows your active GitHub Copilot CLI sessions at a glance. Click any session to jump straight to its terminal tab.</p>
+                        <a href="https://github.com/liamchampton/copilot-cli-session-monitor" target="_blank" rel="noopener noreferrer" class="card-link">
+                            <i class="fab fa-github"></i> View repository <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="card reveal" data-delay="1">
+                        <div class="card-tags">
+                            <span class="tag">Go</span><span class="tag">Copilot SDK</span><span class="tag">CLI</span>
+                        </div>
+                        <h3 class="card-title">Interview Doctor</h3>
+                        <p class="card-desc">An AI-powered CLI tool that generates tailored interview questions based on your CV, job title, seniority level, and job description URL.</p>
+                        <a href="https://github.com/liamchampton/interview-doctor" target="_blank" rel="noopener noreferrer" class="card-link">
+                            <i class="fab fa-github"></i> View repository <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="card reveal" data-delay="2">
+                        <div class="card-tags">
+                            <span class="tag">MCP</span><span class="tag">GitHub Copilot</span>
+                        </div>
+                        <h3 class="card-title">MCP Apps Project Collection</h3>
+                        <p class="card-desc">A collection of MCP (Model Context Protocol) applications and examples for extending AI capabilities.</p>
+                        <a href="https://github.com/liamchampton/mcp-apps" target="_blank" rel="noopener noreferrer" class="card-link">
+                            <i class="fab fa-github"></i> View repository <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card-tags">
+                            <span class="tag">Swift</span><span class="tag">Python</span><span class="tag">iOS</span><span class="tag">Copilot SDK</span>
+                        </div>
+                        <h3 class="card-title">iOS Scratch Map with Copilot SDK</h3>
+                        <p class="card-desc">An iOS scratch map application built with Swift, integrating the Copilot SDK for enhanced AI-powered features and interactions.</p>
+                        <span class="no-recording"><i class="fas fa-hourglass-half"></i> Public repository coming soon</span>
+                    </article>
+
+                    <article class="card reveal" data-delay="1">
+                        <div class="card-tags">
+                            <span class="tag">GitHub Copilot</span><span class="tag">AI Tour 2026</span>
+                        </div>
+                        <h3 class="card-title">GitHub Copilot as an AI Agent in the Developer Workflow</h3>
+                        <p class="card-desc">Microsoft AI Tour 2026 breakout session resources demonstrating how to use GitHub Copilot effectively.</p>
+                        <a href="https://github.com/microsoft/aitour26-BRK442-github-copilot-as-an-ai-agent-in-the-developer-workflow" target="_blank" rel="noopener noreferrer" class="card-link">
+                            <i class="fab fa-github"></i> View repository <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="card reveal" data-delay="2">
+                        <div class="card-tags">
+                            <span class="tag">Go</span><span class="tag">Azure AI Foundry</span><span class="tag">Bicep IaC</span>
+                        </div>
+                        <h3 class="card-title">DeepSeek-R1 × Go AZD Template</h3>
+                        <p class="card-desc">An AI Chat application ready-made template using DeepSeek-R1 model deployed in Azure Foundry.</p>
+                        <a href="https://github.com/Azure-Samples/deepseek-go" target="_blank" rel="noopener noreferrer" class="card-link">
+                            <i class="fab fa-github"></i> View repository <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="tech-row reveal" aria-label="Languages and tools I work with">
+                    <i class="fab fa-swift" title="Swift"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fab fa-golang" title="Go"></i>
+                    <img src="./assets/copilot-logo.svg" alt="GitHub Copilot" title="GitHub Copilot" class="copilot-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== VIDEOS ============================== -->
+        <section id="videos" class="section section-tint">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <span class="eyebrow">On screen</span>
+                    <h2 class="section-title">Recent <em>video</em> content.</h2>
+                    <p class="section-lede">Live streams, demos and deep-dives across GitHub Copilot, MCP and VS Code.</p>
+                </header>
+
+                <div class="grid grid-3 grid-tight" id="videos-grid">
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Claude & Codex Agents in VS Code</h3>
+                        <p class="card-desc">Exploring how to use Claude and Codex as AI agents directly within VS Code.</p>
+                        <a href="https://youtu.be/OWYQ8Mn7KqE" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="1">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Create and install an F1 inspired MCP Server in VS Code</h3>
+                        <p class="card-desc">Build a Formula 1 themed MCP server from scratch and install it in VS Code.</p>
+                        <a href="https://youtu.be/ZPaF_6mSp8I" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="2">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Don't just settle for the subscription based models!</h3>
+                        <p class="card-desc">Discover how to bring your own models and go beyond the default subscription options in VS Code.</p>
+                        <a href="https://youtu.be/Fjhveek3rAo" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Using Tools with Agents in VS Code</h3>
+                        <p class="card-desc">Learn how to equip AI agents with tools to extend their capabilities within VS Code.</p>
+                        <a href="https://youtu.be/wZrQ0TAfpFg" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="1">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Extending Agents with MCP Servers</h3>
+                        <p class="card-desc">Extend the power of AI agents by connecting them to MCP servers in VS Code.</p>
+                        <a href="https://youtu.be/Sf4qD7SS2NA" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="2">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Agent Plugins in VS Code</h3>
+                        <p class="card-desc">A look at agent plugins and how they enhance the AI agent experience in VS Code.</p>
+                        <a href="https://youtu.be/9lonfxt7dqU" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Hosted Agents League — Creative Apps (GitHub Copilot)</h3>
+                        <p class="card-desc">Live stream battle showcasing creative app building with GitHub Copilot agents.</p>
+                        <a href="https://www.youtube.com/live/33rGM-cpUAI?si=DFn24S6oyntEAz97" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Working with MCP servers in GitHub Copilot Agent mode</h3>
+                        <p class="card-desc">Using the GitHub MCP server combined with the Perplexity MCP server within VS Code.</p>
+                        <span class="video-views"><i class="fas fa-eye"></i> 60k+ views</span>
+                        <a href="https://youtu.be/ZlrQJQV14xQ" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Using the GitHub Copilot SDK with Python</h3>
+                        <p class="card-desc">Connect your apps to the underlying GitHub Copilot Engine using the SDKs. Liam connects his iOS app to GitHub Copilot using a Python script.</p>
+                        <span class="video-views"><i class="fas fa-eye"></i> 9.5k+ views</span>
+                        <a href="https://youtu.be/G6Ywhqv_7WQ" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">GitHub MCP Registry integrated in VS Code Insiders</h3>
+                        <p class="card-desc">Unlock the GitHub MCP Registry to get started with the Playwright MCP server to write and run automated tests.</p>
+                        <span class="video-views"><i class="fas fa-eye"></i> 21k+ views</span>
+                        <a href="https://youtu.be/STigfiK_n1Q" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">Using Agent Sessions in VS Code</h3>
+                        <p class="card-desc">Agent Sessions in VS Code is a powerful way to boost productivity, letting you use both local and remote AI Agents.</p>
+                        <span class="video-views"><i class="fas fa-eye"></i> 10k+ views</span>
+                        <a href="https://youtu.be/ZfmcABG7Mps" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">The new MCP registry experience in VS Code!</h3>
+                        <p class="card-desc">Get hands on with the new GitHub MCP server registry experience directly in VS Code.</p>
+                        <span class="video-views"><i class="fas fa-eye"></i> 16k+ views</span>
+                        <a href="https://youtu.be/K4Vz-Wih-40" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">MCP Apps Support in VS Code</h3>
+                        <p class="card-desc">Get a GUI-returned output on your MCP responses in your agent.</p>
+                        <a href="https://youtube.com/shorts/ElbfEUBA8Pw?si=UTLuovNTAfOGtUo5" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card card-cta hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">More videos</h3>
+                        <p class="card-desc">See more of my content on the VS Code YouTube channel.</p>
+                        <a href="https://www.youtube.com/@code/search?query=liam" target="_blank" rel="noopener noreferrer" class="card-link">View channel <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                </div>
+
+                <div class="expand-row">
+                    <button class="expand-btn" id="videos-expand-btn" data-target="videos-grid" aria-expanded="false">
+                        <span>Show more</span><i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== TALKS ============================== -->
+        <section id="talks" class="section">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <span class="eyebrow">On stage</span>
+                    <h2 class="section-title">Conference &amp; <em>meetup</em> talks.</h2>
+                    <p class="section-lede">Selected speaking from Microsoft Ignite, Build, AI Tour, GopherCon and beyond.</p>
+                </header>
+
+                <div class="grid" id="talks-grid">
+                    <article class="card featured reveal">
+                        <span class="featured-mark">Featured</span>
+                        <span class="card-date">June 2026</span>
+                        <h3 class="card-title">Microsoft Build 2026 — San Francisco</h3>
+                        <p class="card-subtitle">Workshop</p>
+                        <p class="card-desc">Hands-on workshop at Microsoft's premier developer conference.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card reveal" data-delay="1">
+                        <span class="card-date">May 2026</span>
+                        <h3 class="card-title">GitHub Copilot Dev Days — London</h3>
+                        <p class="card-subtitle">Organiser & Speaker</p>
+                        <p class="card-desc">Organised, spoke at and hosted a GitHub Copilot focused developer day in London.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card reveal" data-delay="2">
+                        <span class="card-date">May 2026</span>
+                        <h3 class="card-title">GitHub Copilot Dev Days — Budapest</h3>
+                        <p class="card-subtitle">Organiser & Speaker</p>
+                        <p class="card-desc">Organised, spoke at and hosted a GitHub Copilot focused developer day in Budapest.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card reveal">
+                        <span class="card-date">May 2026</span>
+                        <h3 class="card-title">Building with MCP — London</h3>
+                        <p class="card-subtitle">Organiser & Host</p>
+                        <p class="card-desc">Organised and hosted a community event focused on building with MCP in London.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card reveal" data-delay="1">
+                        <span class="card-date">April 2026</span>
+                        <h3 class="card-title">AI Engineer Europe 2026</h3>
+                        <p class="card-subtitle">Conference Talk</p>
+                        <p class="card-desc">Spoke at AI Engineer Europe conference.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card reveal" data-delay="2">
+                        <span class="card-date">April 2026</span>
+                        <h3 class="card-title">Microsoft AI Tour 2026 — Zurich</h3>
+                        <p class="card-subtitle">Session</p>
+                        <p class="card-desc">Delivered a session at Microsoft AI Tour in Zurich, Switzerland.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+
+                    <!-- Hidden / archive -->
+                    <article class="card featured hidden-card">
+                        <span class="featured-mark">Keynote</span>
+                        <span class="card-date">February 2026</span>
+                        <h3 class="card-title">AgentCon Tokyo 2026</h3>
+                        <p class="card-subtitle">Keynote</p>
+                        <p class="card-desc">Keynote presentation at AgentCon in Tokyo, Japan.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">February 2026</span>
+                        <h3 class="card-title">Microsoft AI Tour 2026 — London</h3>
+                        <p class="card-subtitle">Session</p>
+                        <p class="card-desc">Delivered a session at Microsoft AI Tour in London.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card featured hidden-card">
+                        <span class="featured-mark">Featured</span>
+                        <span class="card-date">November 2025</span>
+                        <h3 class="card-title">Microsoft Ignite 2025</h3>
+                        <p class="card-subtitle">Breakout Session</p>
+                        <p class="card-desc">Delivered a breakout session on GitHub Copilot at Microsoft's flagship technical conference.</p>
+                        <a href="https://www.youtube.com/watch?v=3K9kKLMU9rs" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">November 2025</span>
+                        <h3 class="card-title">Microsoft AI Tour 2025 — Frankfurt</h3>
+                        <p class="card-subtitle">Workshop</p>
+                        <p class="card-desc">Led a hands-on GitHub Copilot workshop at Microsoft AI Tour in Frankfurt, Germany.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">October 2025</span>
+                        <h3 class="card-title">Microsoft AI Tour 2025 — Toronto</h3>
+                        <p class="card-subtitle">Breakout Sessions × 2</p>
+                        <p class="card-desc">Delivered two breakout sessions at Microsoft AI Tour Toronto: GitHub Copilot, and Securing AI workflows.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">September 2025</span>
+                        <h3 class="card-title">Microsoft AI Tour 2025 — Chicago</h3>
+                        <p class="card-subtitle">Breakout Session</p>
+                        <p class="card-desc">Delivered a breakout session on GitHub Copilot at Microsoft AI Tour in Chicago.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card featured hidden-card">
+                        <span class="featured-mark">Keynote</span>
+                        <span class="card-date">June 2025</span>
+                        <h3 class="card-title">DevTalks Romania 2025</h3>
+                        <p class="card-subtitle">Keynote</p>
+                        <p class="card-desc">Keynote presentation on the Azure Developer CLI and GitHub Copilot at DevTalks Romania.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card featured hidden-card">
+                        <span class="featured-mark">Featured</span>
+                        <span class="card-date">May 2025</span>
+                        <h3 class="card-title">Microsoft Build 2025 — Seattle</h3>
+                        <p class="card-subtitle">Lab Workshop</p>
+                        <p class="card-desc">Led a hands-on lab workshop at Microsoft's premier developer conference in Seattle.</p>
+                        <span class="no-recording"><i class="fas fa-circle-minus"></i> No recording available</span>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">September 2024</span>
+                        <h3 class="card-title">MSFT Reactor Stream</h3>
+                        <p class="card-subtitle">Scaling and Maintaining AI Apps on Azure</p>
+                        <p class="card-desc">AI fundamentals and LLM interaction, with a demo of the Azure Developer CLI for building and deploying production AI applications.</p>
+                        <a href="https://youtu.be/PLs9SKi7E1Y?si=MIc0SsZg92w-U9-Z" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">August 2024</span>
+                        <h3 class="card-title">GopherCon UK '24</h3>
+                        <p class="card-subtitle">Improving your code craft with Generative AI</p>
+                        <p class="card-desc">Session on prompt engineering, GenAI in the SDLC, and a live demo with GitHub Copilot and Azure OpenAI function calling.</p>
+                        <a href="https://youtu.be/mls9mQFgB7A?si=HjCzCXbrf7rRSbaS" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">September 2023</span>
+                        <h3 class="card-title">code.talks Germany</h3>
+                        <p class="card-subtitle">Code to Cloud with the Azure Developer CLI</p>
+                        <p class="card-desc">Conference talk at one of Germany's biggest conferences, focused on the Azure Developer CLI for deploying end-to-end applications.</p>
+                        <a href="https://youtu.be/bTKrMpM01bo?si=KbE2f__hfBaZ5LcW" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card featured hidden-card">
+                        <span class="featured-mark">Keynote</span>
+                        <span class="card-date">August 2023</span>
+                        <h3 class="card-title">GopherCon UK '23 Opening Keynote</h3>
+                        <p class="card-subtitle">Memory management in Go: The good, the bad and the ugly</p>
+                        <p class="card-desc">Delivered the opening conference keynote to an audience of ~600 people.</p>
+                        <a href="https://youtu.be/SKenR18NM04?si=dKwBI-3EXg83fyVr" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">June 2023</span>
+                        <h3 class="card-title">London DevOps Meetup</h3>
+                        <p class="card-subtitle">The Serverless Revolution (updated)</p>
+                        <p class="card-desc">Meetup talk at Amazon London HQ with a Serverless Revolution presentation and Azure Developer CLI demo.</p>
+                        <a href="https://youtu.be/ed1CbYktbjY" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">December 2022</span>
+                        <h3 class="card-title">DevOpsDays Tel Aviv</h3>
+                        <p class="card-subtitle">The Serverless Revolution</p>
+                        <p class="card-desc">Main stage presentation on how developers are decoupling infrastructure and its effect on the DevOps lifecycle.</p>
+                        <a href="https://youtu.be/DJDoaULwT5c" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card hidden-card">
+                        <span class="card-date">December 2021</span>
+                        <h3 class="card-title">GopherCon US</h3>
+                        <p class="card-subtitle">Go to the Edge</p>
+                        <p class="card-desc">Lightning talk on TinyGo and how "the networking language of the future" is being used on IoT and embedded devices.</p>
+                        <a href="https://youtu.be/bt5wIp7qAt4" target="_blank" rel="noopener noreferrer" class="card-link"><i class="fab fa-youtube"></i> Watch <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card card-cta hidden-card">
+                        <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                        <h3 class="card-title">More talks</h3>
+                        <p class="card-desc">See more on the Microsoft Reactor YouTube channel.</p>
+                        <a href="https://www.youtube.com/@MicrosoftReactor/search?query=Liam" target="_blank" rel="noopener noreferrer" class="card-link">View channel <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                </div>
+
+                <div class="expand-row">
+                    <button class="expand-btn" id="talks-expand-btn" data-target="talks-grid" aria-expanded="false">
+                        <span>Show more</span><i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== WRITING ============================== -->
+        <section id="writing" class="section section-tint">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <span class="eyebrow">In writing</span>
+                    <h2 class="section-title">Articles &amp; <em>tutorials</em>.</h2>
+                    <p class="section-lede">Practical write-ups on Azure, GitHub, and developer tooling.</p>
+                </header>
+
+                <div class="grid">
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-terminal"></i></div>
+                        <h3 class="card-title">Step-by-step: How to setup and use Azure CLI Interactive mode</h3>
+                        <a href="https://dev.to/liamchampton/step-by-step-how-to-setup-and-use-azure-cli-interactive-mode-292e" target="_blank" rel="noopener noreferrer" class="card-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="1">
+                        <div class="card-icon"><i class="fas fa-code-compare"></i></div>
+                        <h3 class="card-title">The difference between the Azure CLI and Azure Developer CLI?</h3>
+                        <a href="https://dev.to/liamchampton/what-is-the-difference-between-the-azure-command-line-interface-and-azure-developer-command-line-interface-5cl3" target="_blank" rel="noopener noreferrer" class="card-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card reveal" data-delay="2">
+                        <div class="card-icon"><i class="fab fa-github"></i></div>
+                        <h3 class="card-title">How to build, test and deploy your application using Azure and GitHub</h3>
+                        <a href="https://devblogs.microsoft.com/devops/how-to-build-test-and-deploy-your-application-using-azure-and-github/" target="_blank" rel="noopener noreferrer" class="card-link">Read article <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                    <article class="card card-cta reveal" data-delay="3">
+                        <div class="card-icon"><i class="fab fa-dev"></i></div>
+                        <h3 class="card-title">More articles</h3>
+                        <p class="card-desc">Visit my Dev.to blog for more technical articles and tutorials.</p>
+                        <a href="https://dev.to/liamchampton" target="_blank" rel="noopener noreferrer" class="card-link">View blog <i class="fas fa-arrow-right"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================== CONTACT ============================== -->
+        <section id="contact" class="section">
+            <div class="wrap">
+                <header class="section-head reveal" style="max-width: 820px;">
+                    <span class="eyebrow">Let's talk</span>
+                    <h2 class="section-title">Want to <em>collaborate</em>?</h2>
+                    <p class="section-lede">I'm open to speaking invitations, workshops, and interesting open-source projects. The fastest way to reach me is on the socials below.</p>
+                </header>
+                <div class="hero-actions reveal">
+                    <a href="https://www.linkedin.com/in/liam-conroy-hampton/" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-linkedin-in"></i> Message on LinkedIn</a>
+                    <a href="https://twitter.com/liamchampton" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"><i class="fab fa-x-twitter"></i> DM on X</a>
+                    <a href="https://github.com/liamchampton" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"><i class="fab fa-github"></i> Follow on GitHub</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>Built with passion by Liam Hampton</p>
-            <div class="footer-links">
-                <a href="https://github.com/liamchampton" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/liamchampton" target="_blank" rel="noopener noreferrer" aria-label="X/Twitter"><i class="fab fa-x-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/liam-conroy-hampton/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <div class="wrap footer-grid">
+            <p>© <span id="year"></span> Liam Hampton · Built with care.</p>
+            <div class="socials">
+                <a href="https://github.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/liamchampton" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/liam-conroy-hampton/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </footer>
 
     <script>
-        function toggleTalks() {
-            const grid = document.getElementById('talks-grid');
-            const btn = document.getElementById('talks-expand-btn');
-            const isExpanded = grid.classList.toggle('expanded');
-            
-            btn.querySelector('span').textContent = isExpanded ? 'Show Less' : 'Show More';
-            btn.querySelector('i').classList.toggle('fa-chevron-down', !isExpanded);
-            btn.querySelector('i').classList.toggle('fa-chevron-up', isExpanded);
-        }
+    (function () {
+        // Year
+        document.getElementById('year').textContent = new Date().getFullYear();
 
-        function toggleVideos() {
-            const grid = document.getElementById('videos-grid');
-            const btn = document.getElementById('videos-expand-btn');
-            const isExpanded = grid.classList.toggle('expanded');
-            
-            btn.querySelector('span').textContent = isExpanded ? 'Show Less' : 'Show More';
-            btn.querySelector('i').classList.toggle('fa-chevron-down', !isExpanded);
-            btn.querySelector('i').classList.toggle('fa-chevron-up', isExpanded);
+        // Sticky nav state + scroll progress
+        const nav = document.getElementById('nav');
+        const progress = document.getElementById('scrollProgress');
+        const blobs = document.querySelectorAll('.blob');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        const sections = ['projects', 'videos', 'talks', 'writing', 'contact']
+            .map(id => document.getElementById(id))
+            .filter(Boolean);
+
+        let ticking = false;
+        function onScroll() {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => {
+                const y = window.scrollY;
+                const max = (document.documentElement.scrollHeight - window.innerHeight) || 1;
+                progress.style.setProperty('--progress', (y / max * 100).toFixed(2) + '%');
+                nav.classList.toggle('scrolled', y > 12);
+
+                // Parallax blobs
+                blobs.forEach(b => {
+                    const speed = parseFloat(b.dataset.speed || '0');
+                    b.style.transform = 'translate3d(0,' + (y * speed) + 'px, 0)';
+                });
+
+                // Active section
+                let current = sections[0]?.id;
+                const fromTop = y + window.innerHeight * 0.35;
+                sections.forEach(s => { if (s.offsetTop <= fromTop) current = s.id; });
+                navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + current));
+
+                ticking = false;
+            });
         }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Reveal on scroll
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('in');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+        // Card spotlight (mouse-tracked gradient)
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const r = card.getBoundingClientRect();
+                card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+                card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+            });
+        });
+
+        // Expand/collapse for videos & talks
+        document.querySelectorAll('.expand-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const grid = document.getElementById(btn.dataset.target);
+                const expanded = grid.classList.toggle('expanded');
+                btn.classList.toggle('is-expanded', expanded);
+                btn.setAttribute('aria-expanded', String(expanded));
+                btn.querySelector('span').textContent = expanded ? 'Show less' : 'Show more';
+            });
+        });
+
+        // Mobile nav toggle
+        const toggle = document.getElementById('navToggle');
+        const linksWrap = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => {
+            const open = linksWrap.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', String(open));
+        });
+        linksWrap.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => {
+                linksWrap.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    })();
     </script>
 </body>
-
 </html>
